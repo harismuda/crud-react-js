@@ -7,6 +7,31 @@
   pointer-events: none;
 }
 
+.main{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #212121;
+    color: whitesmoke;
+    flex-direction: column;
+}
+
+.add {
+  width:100vh;
+}
+
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.main-header {
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
